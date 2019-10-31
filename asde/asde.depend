@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1571841189 source:c:\users\razva\desktop\module\asde\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"asd.h"
+
+1571838116 c:\users\razva\desktop\module\asde\asd.h
+
+1571845357 source:c:\users\razva\desktop\module\asde\asd.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"asd.h"
+
