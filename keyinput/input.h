@@ -30,8 +30,7 @@
 #define Y 89
 #define Z 90
 
-extern unsigned short int keyPressed[128];
-void getInput();
 int isPressed(int key);
+char getKey();
 
 #endif // INPUT_H_INCLUDED
