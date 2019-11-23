@@ -13,11 +13,11 @@ int isPressed(int key)
 
 char getKey()
 {
-    union REGS InReg, OutReg;
+    union REGS in, out;
 
-    InReg.h.ah=0x8;
-    int86(0x21,&InReg,&OutReg);
+    in.h.ah=0x8;
+    int86(0x21,&in,&out);
 
-    return OutReg.h.al;
+    return out.h.al;
 }
 
